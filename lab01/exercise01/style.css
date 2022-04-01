@@ -10,38 +10,13 @@ body {
 Add some style blocks below this line to style the card.
 */
 section {
-    box-sizing: border-box;
-    border: dotted 1px #CCC; 
-    width: 50vh;
-    height: 70vh;   
-    /*
-    Alternative syntax:
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    */
-    margin: 10px;
-    
-    /*
-    Alternative syntax:
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    */
+    border: solid 2px #CCC; 
+    width: 350px;
 }
-h2 {
-    padding-left: 15px;
+section h2, p, button{
+    margin-left: 20px;
+    margin-right: 20px;
 }
-p {
-    padding-left: 10px;
-}
-button{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 10px;
-}
-img {
-    width: 100%;
+section img {
+    max-width: 100%;
 }
